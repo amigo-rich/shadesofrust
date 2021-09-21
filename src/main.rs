@@ -26,8 +26,6 @@ fn main() {
                         .required(true)
                         .help("The sysfs path of the device. e.g. /sys/class/backlight/amdgpu_bl0/")
                         .takes_value(true),
-
-
                 )
                 .arg(
                     Arg::with_name("brightness")
